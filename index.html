@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Recipes</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>Recipes</h1>
+
+      <div id="content">
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="recipe_list.js"></script>
+    <script>
+      for (var group in kIndex) {
+        $("#content").append("<h2>" + group + "<h2>");
+        newlist = document.createElement("ul");
+        recipes = kIndex[group];
+        for (var i = 0; i < recipes.length; ++i) {
+          $(newlist).append("<li><a href=recipe.html?recipe=" + recipes[i] + ">" + kRecipes[recipes[i]] + "<a></li>");
+	}
+        $("#content").append(newlist);
+      }
+    </script>
+  </body>
+</html>
