@@ -1,5 +1,6 @@
 var kRecipes = {
   // Breakfast.
+  'blueberry_pancakes': 'Blueberry Pancakes',
   'nalesniki': 'Nalesniki',
   'waffles_banana_choco': 'Chocolate Banana Waffles',
   // Breads.
@@ -55,6 +56,7 @@ var kRecipes = {
 // Groupings for index.
 var kIndex = {
   'Breakfast': [
+    'blueberry_pancakes',
     'nalesniki',
     'waffles_banana_choco',
   ],
