@@ -11,13 +11,16 @@ var kRecipes = {
   // Soups.
   'barszcz_z_uszkami': 'Barszcz z Uszkami',
   'soup_butternut_squash': 'Butternut Squash Soup',
+  'soup_chicken_noodle': 'Chicken Noodle Soup',
   'soup_coconut': 'Coconut Soup',
+  'soup_minestrone': 'Minestrone Soup',
   'soup_onion': 'Onion Soup',
   'soup_red_lentil': 'Red Lentil Soup',
   'soup_udon_noodle': 'Udon Noodle Soup with Bok Choy and Poached Egg',
   // Salads.
   'salad_kale_apple_cheese': 'Kale Apple Cheese Salad',
   // Sides.
+  'pesto': 'Pesto',
   'potato_salad': 'Potato Salad',
   'roasted_brussel_sprouts_with_garlic': 'Roasted Brussel Sprouts with Garlic',
   'salatka_jarzynowa': 'Salatka Jarzynowa',
@@ -70,6 +73,7 @@ var kIndex = {
     'salad_kale_apple_cheese',
   ],
   'Sides': [
+    'pesto',
     'roasted_brussel_sprouts_with_garlic',
     'potato_salad',
     'salatka_jarzynowa',
@@ -79,6 +83,8 @@ var kIndex = {
     'barszcz_z_uszkami',
     'soup_butternut_squash',
     'soup_coconut',
+    'soup_chicken_noodle',
+    'soup_minestrone',
     'soup_onion',
     'soup_red_lentil',
     'soup_udon_noodle',
