@@ -22,6 +22,7 @@ var kRecipes = {
   // Sides.
   'pesto': 'Pesto',
   'potato_salad': 'Potato Salad',
+  'potatoes_mashed': 'Mashed Potatoes',
   'roasted_brussel_sprouts_with_garlic': 'Roasted Brussel Sprouts with Garlic',
   'salatka_jarzynowa': 'Salatka Jarzynowa',
   'stuffing': 'Stuffing',
@@ -53,7 +54,12 @@ var kRecipes = {
   'cookies_drela': 'Drela Cookies',
   'horchata': 'Horchata',
   'mango_sticky_rice': 'Mango Sticky Rice',
+  'pie_apple': 'Apple Pie',
   'rice_pudding': 'Rice Pudding',
+  // Other.
+  'gravy_pan': 'Pan Gravy',
+  'roast_turkey': 'Roast Turkey',
+  'sauce_cranberry': 'Cranberry Sauce',
 };
 
 // Groupings for index.
@@ -118,6 +124,16 @@ var kIndex = {
     'cookies_drela',
     'horchata',
     'mango_sticky_rice',
+    'pie_apple',
     'rice_pudding',
+  ],
+  'Thanksgiving': [
+    'roast_turkey',
+    'roasted_brussel_sprouts_with_garlic',
+    'gravy_pan',
+    'sauce_cranberry',
+    'stuffing',
+    'potatoes_mashed',
+    'pie_apple',
   ],
 };
