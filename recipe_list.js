@@ -20,6 +20,7 @@ var kRecipes = {
   // Salads.
   'salad_kale_apple_cheese': 'Kale Apple Cheese Salad',
   // Sides.
+  'rice_basmati': 'Basmati Rice',
   'pesto': 'Pesto',
   'potato_salad': 'Potato Salad',
   'potatoes_mashed': 'Mashed Potatoes',
@@ -27,6 +28,7 @@ var kRecipes = {
   'salatka_jarzynowa': 'Salatka Jarzynowa',
   'stuffing': 'Stuffing',
   // Mains.
+  'chicken_butter': 'Butter Chicken',
   'chicken_marsala': 'Chicken Marsala',
   'chicken_piccata': 'Chicken Piccata',
   'chile_verde': 'Chile Verde',
@@ -52,6 +54,7 @@ var kRecipes = {
   'cake_szarlotka_z_budyniem': 'Szarlotka z Budyniem',
   'cookies_applesauce_oatmeal': 'Applesauce Oatmeal Cookies',
   'cookies_drela': 'Drela Cookies',
+  'cookies_thumbprint': 'Thumbprint Cookies',
   'horchata': 'Horchata',
   'mango_sticky_rice': 'Mango Sticky Rice',
   'pie_apple': 'Apple Pie',
@@ -79,6 +82,7 @@ var kIndex = {
     'salad_kale_apple_cheese',
   ],
   'Sides': [
+    'rice_basmati',
     'pesto',
     'roasted_brussel_sprouts_with_garlic',
     'potato_salad',
@@ -96,6 +100,7 @@ var kIndex = {
     'soup_udon_noodle',
   ],
   'Mains': [
+    'chicken_butter',
     'chicken_marsala',
     'chicken_piccata',
     'chile_verde',
@@ -122,6 +127,7 @@ var kIndex = {
     'cake_szarlotka_z_budyniem',
     'cookies_applesauce_oatmeal',
     'cookies_drela',
+    'cookies_thumbprint',
     'horchata',
     'mango_sticky_rice',
     'pie_apple',
