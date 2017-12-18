@@ -26,6 +26,7 @@ var kRecipes = {
   'potatoes_mashed': 'Mashed Potatoes',
   'roasted_brussel_sprouts_with_garlic': 'Roasted Brussel Sprouts with Garlic',
   'salatka_jarzynowa': 'Salatka Jarzynowa',
+  'scallion_pancakes': 'Scallion Pancakes',
   'stuffing': 'Stuffing',
   // Mains.
   'chicken_butter': 'Butter Chicken',
@@ -39,6 +40,7 @@ var kRecipes = {
   'lasagna_vegetable': 'Vegetable Lasagna',
   'lentil_bolognese_sauce': 'Lentil Bolognese Sauce',
   'moussaka': 'Moussaka',
+  'mujadara': 'Mujadara',
   'muttar_paneer': 'Muttar Paneer',
   'pad_thai': 'Pad Thai',
   'pasta_primavera': 'Pasta Primavera',
@@ -87,6 +89,7 @@ var kIndex = {
     'roasted_brussel_sprouts_with_garlic',
     'potato_salad',
     'salatka_jarzynowa',
+    'scallion_pancakes',
     'stuffing',
   ],
   'Soups': [
@@ -111,6 +114,7 @@ var kIndex = {
     'lasagna_vegetable',
     'lentil_bolognese_sauce',
     'moussaka',
+    'mujadara',
     'muttar_paneer',
     'pad_thai',
     'pasta_primavera',
