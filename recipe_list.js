@@ -27,6 +27,7 @@ var kRecipes = {
   'roasted_brussel_sprouts_with_garlic': 'Roasted Brussel Sprouts with Garlic',
   'salatka_jarzynowa': 'Salatka Jarzynowa',
   'scallion_pancakes': 'Scallion Pancakes',
+  'snow_pea_shoots': 'Snow Pea Shoots',
   'stuffing': 'Stuffing',
   // Mains.
   'chicken_butter': 'Butter Chicken',
@@ -56,6 +57,7 @@ var kRecipes = {
   'cake_szarlotka_z_budyniem': 'Szarlotka z Budyniem',
   'cookies_applesauce_oatmeal': 'Applesauce Oatmeal Cookies',
   'cookies_drela': 'Drela Cookies',
+  'cookies_matcha': 'Matcha Cookies',
   'cookies_thumbprint': 'Thumbprint Cookies',
   'horchata': 'Horchata',
   'mango_sticky_rice': 'Mango Sticky Rice',
@@ -90,6 +92,7 @@ var kIndex = {
     'potato_salad',
     'salatka_jarzynowa',
     'scallion_pancakes',
+    'snow_pea_shoots',
     'stuffing',
   ],
   'Soups': [
@@ -131,6 +134,7 @@ var kIndex = {
     'cake_szarlotka_z_budyniem',
     'cookies_applesauce_oatmeal',
     'cookies_drela',
+    'cookies_matcha',
     'cookies_thumbprint',
     'horchata',
     'mango_sticky_rice',
