@@ -18,6 +18,7 @@ var kRecipes = {
   'soup_red_lentil': 'Red Lentil Soup',
   'soup_udon_noodle': 'Udon Noodle Soup with Bok Choy and Poached Egg',
   // Salads.
+  'salad_celery_date': 'Celery Salad with Dates, Almonds, and Parmesan',
   'salad_kale_apple_cheese': 'Kale Apple Cheese Salad',
   // Sides.
   'rice_basmati': 'Basmati Rice',
@@ -48,12 +49,14 @@ var kRecipes = {
   'persian_green_stew': 'Persian Green Stew',
   'pierogi': 'Pierogi',
   'salad_life_alive': 'Life Alive Salad',
+  'tacos_fish': 'Fish Tacos',
   'thai_red_curry': 'Thai Red Curry with Kabocha',
   'three_cheese_pasta_bake': 'Three Cheese Pasta Bake',
   // Desserts.
   'banana_bread': 'Banana Bread',
   'brownie_cheesecake': 'Brownie Cheesecake',
   'cake_carrot': 'Carrot Cake',
+  'cake_lava': 'Lava Cake',
   'cake_szarlotka_z_budyniem': 'Szarlotka z Budyniem',
   'cookies_applesauce_oatmeal': 'Applesauce Oatmeal Cookies',
   'cookies_drela': 'Drela Cookies',
@@ -83,6 +86,7 @@ var kIndex = {
     'corn_bread',
   ],
   'Salads': [
+    'salad_celery_date',
     'salad_kale_apple_cheese',
   ],
   'Sides': [
@@ -124,6 +128,7 @@ var kIndex = {
     'persian_green_stew',
     'pierogi',
     'salad_life_alive',
+    'tacos_fish',
     'thai_red_curry',
     'three_cheese_pasta_bake',
   ],
@@ -131,6 +136,7 @@ var kIndex = {
     'banana_bread',
     'brownie_cheesecake',
     'cake_carrot',
+    'cake_lava',
     'cake_szarlotka_z_budyniem',
     'cookies_applesauce_oatmeal',
     'cookies_drela',
