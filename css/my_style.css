@@ -86,6 +86,34 @@
     text-decoration: none;
 }
 
+.sidebar-nav li ul li {
+    background: #222;
+}
+
+/* sidebar collapsible menus */
+.sidebar-nav a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.sidebar-nav a[aria-expanded="false"]::before, a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+
+.sidebar-nav a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+.sidebar-nav a[aria-expanded="true"] {
+    background: #333;
+}
+
+/* top link on sidebar "brand" */
+
 .sidebar-nav > .sidebar-brand {
     height: 65px;
     font-size: 18px;
@@ -101,6 +129,7 @@
     background: none;
 }
 
+/* small screen handling */
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;

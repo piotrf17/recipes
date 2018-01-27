@@ -35,8 +35,29 @@
     <script src="js/url.min.js"></script>
     <script src="recipe_list.js"></script>
     <script>
-      for (var recipe in kRecipes) {
-        $("#sidebar-nav").append('<li><a href="recipe.html?recipe=' + recipe + '">' + kRecipes[recipe] + '</a></li>')
+      // The recipe we are currently rendering.
+      var recipe = url("?recipe");
+      
+      for (var group in kIndex) {
+        recipes = kIndex[group];
+      
+        // Create a collapsible sub-menu for each group. If the recipe appears
+        // in the sub-menu, then we expand it.
+        collapsible = document.createElement("li");
+        expanded = recipes.includes(recipe);
+        $(collapsible).append('<a href="#' + group + '" data-toggle="collapse" aria-expanded="' + (expanded ? 'true' : 'false') + '">' + group + '</a>');
+
+        // It contains a list of all recipes in that group.
+        newlist = document.createElement("ul");
+        $(newlist).addClass("collapse list-unstyled");
+        if (expanded) $(newlist).addClass("in");
+        $(newlist).attr("id", group);
+        for (var i = 0; i < recipes.length; ++i) {
+          $(newlist).append('<li><a href="recipe.html?recipe=' + recipes[i] + '">' + kRecipes[recipes[i]] + '</a></li>')
+        }
+        $(collapsible).append(newlist);
+	
+        $("#sidebar-nav").append(collapsible);
       }
       
       $("#menu-toggle").click(function(e) {
@@ -44,7 +65,6 @@
         $("#wrapper").toggleClass("toggled");
       });
 
-      var recipe = url("?recipe");
       if (recipe in kRecipes) {
         $("#title").html(kRecipes[recipe]);
         $("#contents").load("recipes/" + recipe + ".html");
