@@ -35,6 +35,7 @@ var kRecipes = {
   'snow_pea_shoots': 'Snow Pea Shoots',
   'stuffing': 'Stuffing',
   // Mains.
+  'bigos': 'Bigos',
   'chicken_butter': 'Butter Chicken',
   'chicken_marsala': 'Chicken Marsala',
   'chicken_piccata': 'Chicken Piccata',
@@ -121,6 +122,7 @@ var kIndex = {
     'soup_udon_noodle',
   ],
   'Mains': [
+    'bigos',
     'chicken_butter',
     'chicken_marsala',
     'chicken_piccata',
